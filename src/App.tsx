@@ -1,26 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	let a = `https://firebasestorage.googleapis.com/v0/b/clashzin-web.appspot.com/o/miriam.jpg?alt=media&token=7ad283ff-6238-4045-bd38-8b22c52cf8e2`;
+	return (
+		<div className="App">
+			<header className="App-header">
+				<h1>GOSTOSA</h1>
+				<img src={a} alt="gostosa" />
+			</header>
+		</div>
+	);
 }
 
 export default App;
